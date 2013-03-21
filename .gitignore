@@ -30,5 +30,7 @@
 *.vrb
 *.xdy
 *.tdo
+.dstore
 *.pdf
+~$*
 !literatuur/*.pdf
