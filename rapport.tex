@@ -17,6 +17,7 @@
 }
 
 \newcommand{\TODO}[1]{{\color{red}\textbf{TODO: #1}}}
+\renewcommand{\TODO}[1]{}
 
 \begin{document}
 
@@ -42,9 +43,13 @@
 Dit artikel is geschreven door 3 studenten Technische Informatica aan de Technische Universiteit Delft voor het vak `informatietechnologie en waarden'.
 Het belicht een ethische kwestie van verschillende standpunten aangesterkt met literatuur uit het vakgebied en de filosofie. 
 
-\renewcommand{\contentsname}{Inhoud} 
-\tableofcontents
+\thispagestyle{empty}
+\newpage
 
+\begingroup
+\hypersetup{linkcolor=black}
+\tableofcontents
+\endgroup
 
 \thispagestyle{empty}
 \newpage
