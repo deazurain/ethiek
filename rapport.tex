@@ -17,6 +17,7 @@
 }
 
 \newcommand{\TODO}[1]{{\color{red}\textbf{TODO: #1}}}
+\renewcommand{\TODO}[1]{}
 
 \begin{document}
 
@@ -49,9 +50,11 @@ Het belicht een ethische kwestie van verschillende standpunten aangesterkt met l
 \thispagestyle{empty}
 \newpage
 
-\renewcommand{\contentsname}{Inhoud} 
+\renewcommand{\contentsname}{Inhoud}
+\begingroup
+\hypersetup{linkcolor=black}
 \tableofcontents
-
+\endgroup
 
 \thispagestyle{empty}
 \newpage
